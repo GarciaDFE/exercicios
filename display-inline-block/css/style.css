@@ -1,0 +1,24 @@
+.example {
+    color: #FFF;
+    text-align: justify;
+}
+.example:after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    width: 100%;
+}
+.example-item {
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+}
+.example-item_first {
+    background-color: #e6a948;
+}
+.example-item_second {
+    background-color: #2fe4de;
+}
+.example-item_third {
+    background-color: #2a5a7a;
+}
